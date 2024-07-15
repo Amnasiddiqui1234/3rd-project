@@ -8,7 +8,7 @@
 html,body{
     height: 100%;
     width: 100%;
-    background-color:rgb(20, 20, 20);
+    background-color:rgb(10, 12, 14);
 }
 .container h1{
     color: rgb(211, 159, 16);
@@ -21,7 +21,7 @@ html,body{
     font-size: 15px;
 }
 .nav{
-    background-color: rgb(187, 19, 33); 
+    background-color: rgb(211, 45, 59); 
     width:25%; 
     border-radius: 15px;
     height: 50px;
@@ -42,19 +42,84 @@ html,body{
 }
 
 .nav a {
-    color: black;
+    color: rgb(17, 13, 9);
     text-decoration: none; 
     padding: 10px; 
     border-radius: 15px; 
 }
 
 .nav a:hover {
-    background-color: rgb(14, 78, 197);
-    color: orangered;
+    background-color: rgb(68, 27, 216);
+    color: rgb(18, 18, 232);
     border-radius: 15px;
 }
-button{
+
+button {
+    background-color: rgb(185, 37, 11);
+    color: rgb(209, 20, 20);
+    border: none;
+    padding: 15px 20px;
     border-radius: 12px;
-    background-color: rgb(184, 21, 43);
-    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+button{
+    font: aqua;
+    font-style: italic;
+
+}
+
+.container img{
+    float:right;
+    height: 30%;
+    width: 30%;
+    border-radius: 15px;
+    margin-right: 6px;
+}
+
+.about h2{
+color: rgb(219, 61, 40);
+font-size: 60px;
+}
+.about{
+    margin-top: 100px;
+}
+.about img{
+    float:right;
+    height: 30%;
+    width: 30%;
+    border-radius: 15px;
+    margin-right: 6px;
+}
+.about h1{
+    color: rgb(231, 162, 34);
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.about p{
+    font-size: 20px;
+    color: rgb(161, 94, 16);
+}
+.box{
+    color: rgb(15, 14, 13);
+    font-style: italic;
+    font-size: small;
+    border-radius: 15px !important;
+    background-color: rgb(172, 123, 34);
+    width: 10%;
+    height: 3%;
+    padding: 15px;
+    box-shadow: rgb(8, 8, 8);
+}
+.parent{
+    display: flex !important;
+    flex-wrap: wrap;
+}
+button{
+    font-size: xx-small;
+    font-style: italic;
+    color: rgb(22, 22, 18);
+    border-radius: 10px;
 }
